@@ -1,0 +1,70 @@
+.about-us{
+  background: url('../img/animate-1200/background-fork-app.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.main-page{
+  height: 100vh;
+  position: relative;
+}
+.main-page-fork-app{
+  /*transform: translate(-50%,-50%);*/
+  padding-top: 200px;
+  color:  #ffffff;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.main-page-gamechanger{
+  padding-top: 40px;
+  font-family: Lato,sans-serif;
+  color: #8d81ac;
+  text-align: center;
+}
+.main-page-version {
+  padding-top: 30px;
+  color: #848e97;
+  text-align: center;
+  text-transform: uppercase;
+}
+.download {
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  bottom:-65px;
+  // margin: 250px 463px;
+}
+.download a{
+  padding: 10px 50px;
+  background-color:#8d81ac;
+  text-align: center;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.download a:hover{
+  color: #8d81ac;
+  background-color: #ffffff;
+  border: 1px solid #8d81ac;
+}
+.download p{
+  margin-top: 20px;
+  color:  #848e97;
+  line-height: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+@media (max-width: 480px){
+  .main-page-fork-app{
+    font-size: 50px;
+  }
+  .download a{
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+}
